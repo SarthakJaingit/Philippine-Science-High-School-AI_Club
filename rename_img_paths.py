@@ -19,10 +19,11 @@ def rename_files(folder_name, renaming_class):
             # for example dog + 1 + .jpeg
             extension = os.path.splitext(file_path)[-1]
             new_file_path = os.path.join(folder_name, renaming_class + str(counter) + extension)
-            print(new_file_path)
 
+            source_file_path = os.path.join(folder_name, file_path)
+            destination_file_path = new_file_path
 
-
+            os.rename(source_file_path, destination_file_path)
 
 
 if __name__ == "__main__":
@@ -36,3 +37,4 @@ if __name__ == "__main__":
     renamed_class = args.renaming_class
 
     rename_files(folder_name = folder_name, renaming_class = renamed_class)
+    print("Finished Renaming")
