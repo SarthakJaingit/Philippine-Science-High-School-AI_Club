@@ -9,3 +9,6 @@ The audio files are just demo files to our first meetings
 Also coding files are not updated regularly in order to get access to up to date material it is better to contact me or join the club.
 
 ## Most of the recordings are not posted here since github can't store many 100 MB video files. For full zoom recordings with video please email me.
+
+Alex's and Francis's presentation for their articles:
+https://drive.google.com/file/d/16HfxS0fP7iiqG6Py8FPQpgMFXz7aJEEW/view?usp=sharing
